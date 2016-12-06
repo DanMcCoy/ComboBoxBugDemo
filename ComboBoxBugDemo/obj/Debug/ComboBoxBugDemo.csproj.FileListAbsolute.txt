@@ -1,0 +1,14 @@
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\bin\Debug\ComboBoxBugDemo.exe.config
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\bin\Debug\ComboBoxBugDemo.exe
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\bin\Debug\ComboBoxBugDemo.pdb
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo.csprojResolveAssemblyReference.cache
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\MainWindow.g.cs
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\App.g.cs
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo_MarkupCompile.cache
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo_MarkupCompile.lref
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\MainWindow.baml
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo.g.resources
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo.Properties.Resources.resources
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo.csproj.GenerateResource.Cache
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo.exe
+c:\users\danm\documents\visual studio 2015\Projects\ComboBoxBugDemo\ComboBoxBugDemo\obj\Debug\ComboBoxBugDemo.pdb

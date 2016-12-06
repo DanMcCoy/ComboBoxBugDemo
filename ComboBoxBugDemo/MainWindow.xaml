@@ -1,0 +1,30 @@
+﻿<Window x:Class="ComboBoxBugDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBoxBugDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}" >
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Label Name="FavoriteFoodLbl" Grid.Column="0" Grid.Row="0">Favorite Food</Label>
+        <ComboBox Name="FavoriteFoodCombo" Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Foods}" SelectedItem="{Binding FavoriteFood, UpdateSourceTrigger=PropertyChanged}" />
+
+        <Label Name="FavoriteFlavourLbl" Grid.Column="2" Grid.Row="0">Favorite Flavour</Label>
+        <ComboBox Name="FavoriteFlavourCombo" Grid.Column="3" Grid.Row="0" ItemsSource="{Binding Flavours}"  />
+        
+        
+    </Grid>
+</Window>
