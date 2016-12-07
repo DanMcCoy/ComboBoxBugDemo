@@ -51,9 +51,10 @@ namespace ComboBoxBugDemo
                         _flavours = new ObservableCollection<string>(SoupFlavours);
                         break;
                     default:
-                        _flavours = new ObservableCollection<string>();
+                        _flavours = new ObservableCollection<string>(new List<string>() { "None" });
                         break;
                 }
+                this.FavoriteFlavour = null;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("FavoriteFood"));
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Flavours"));
             }
@@ -76,7 +77,20 @@ namespace ComboBoxBugDemo
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Flavours"));
             }
         }
-        public string FavoriteFlavour { get; set; }
 
+        string _favoriteFlavour;
+        public string FavoriteFlavour
+        {
+            get
+            {
+                return _favoriteFlavour;
+            }
+
+            set
+            {
+                _favoriteFlavour = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("FavoriteFlavour"));
+            }
+        }
     }
 }

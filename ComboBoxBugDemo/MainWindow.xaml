@@ -13,17 +13,21 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
 
         <Label Name="FavoriteFoodLbl" Grid.Column="0" Grid.Row="0">Favorite Food</Label>
-        <ComboBox Name="FavoriteFoodCombo" Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Foods}" SelectedItem="{Binding FavoriteFood, UpdateSourceTrigger=PropertyChanged}" />
+        <ComboBox Name="FavoriteFoodCombo" Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Foods}" SelectedItem="{Binding FavoriteFood}" />
+        <TextBlock Name="ChosenFood" Text="{Binding FavoriteFood}" Grid.Column="0" Grid.Row="1" />
 
         <Label Name="FavoriteFlavourLbl" Grid.Column="2" Grid.Row="0">Favorite Flavour</Label>
-        <ComboBox Name="FavoriteFlavourCombo" Grid.Column="3" Grid.Row="0" ItemsSource="{Binding Flavours}"  />
+        <ComboBox Name="FavoriteFlavourCombo" Grid.Column="3" Grid.Row="0" ItemsSource="{Binding Flavours}" SelectedItem="{Binding FavoriteFlavour}" />
+        <TextBlock Name="ChosenFlavour" Text="{Binding FavoriteFlavour}" Grid.Column="2" Grid.Row="1" />
         
         
     </Grid>
